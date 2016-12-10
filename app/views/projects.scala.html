@@ -4,7 +4,7 @@
  Projects:
 	@projects.map{project =>
 		@project.name
-		<a href="@routes.Application.projects(project.id)">details</a>
+		<a class="project" href="@routes.Application.projects(project.id)">details</a>
 		<br>
 	}
 }
